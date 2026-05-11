@@ -24,7 +24,7 @@ st.markdown("""
 <style>
 /* 全页面背景 */
 .stApp {
-    background-image: url("https://imgur.com/a/meu4z0U.jpg") !important;
+    background-image: url("https://i.imgur.com/OdKqON4.jpeg") !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
