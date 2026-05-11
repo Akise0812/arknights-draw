@@ -22,16 +22,15 @@ st.markdown("""
 #背景图
 st.markdown("""
 <style>
-/* 整个页面背景使用本地图片 */
+/* 全页面背景 */
 .stApp {
-    background-image: url("/app/static/bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("https://imgur.com/a/meu4z0U.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }
-
-/* 内容区半透明白底，提升可读性 */
+/* 内容卡片半透明背景 */
 .main .block-container {
     background-color: rgba(255, 255, 255, 0.85);
     border-radius: 15px;
@@ -40,8 +39,6 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-
-
 st.title("🎲 明日方舟 · 随机挑战")
 
 #挑战词条库
