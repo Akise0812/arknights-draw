@@ -1,0 +1,21 @@
+{
+  "name": "明日方舟挑战词条抽取",
+  "short_name": "方舟词条",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f0f0f",
+  "description": "随机生成明日方舟挑战词条",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
