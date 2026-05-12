@@ -390,13 +390,3 @@ if st.button("✨ 随机抽取", type="primary", use_container_width=True):
                     <b>第 {idx} 次</b> · {words_formatted}
                 </div>
                 """, unsafe_allow_html=True)
-
-
-#历史记录
-with st.expander("📜 最近抽取记录"):
-    if not st.session_state.history:
-        st.write("暂无记录")
-    else:
-        for idx, draw in enumerate(reversed(st.session_state.history), 1):
-            st.caption(f"第 {idx} 次：")
-            st.write("、".join(draw))
