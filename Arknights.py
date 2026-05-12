@@ -367,7 +367,7 @@ if st.button("✨ 随机抽取", type="primary", use_container_width=True):
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
             border-left: 6px solid {border_color};
         ">
-            <span style="opacity:0.7;">词条 {i}</span>&nbsp;&nbsp;{word}
+            <span style="opacity:0.7;"> </span>&nbsp;&nbsp;{word}
         </div>
         """, unsafe_allow_html=True)
 
