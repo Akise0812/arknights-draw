@@ -95,6 +95,7 @@ st.markdown("""
 .stExpander, .stTextInput, .stNumberInput {
     background: rgba(255,255,255,0.05) !important;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -386,6 +387,7 @@ if st.button("✨ 随机抽取", type="primary", use_container_width=True):
                     margin-bottom: 8px;
                     border-left: 4px solid #2a5298;
                     font-size: 15px;
+                    color: #000000;
                 ">
                     <b>第 {idx} 次</b> · {words_formatted}
                 </div>
